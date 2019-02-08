@@ -8,6 +8,7 @@ html{
 
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .header{
@@ -19,5 +20,11 @@ html{
 
 .weatherCardContainer{
   max-width: 80%;
+  position: relative;
   margin: auto;
+  display: flex;
+  height: 10%;
+  flex-direction: row;
+  justify-content: center;
+  height: 120px;
 }

@@ -1,4 +1,27 @@
 .weatherCard{
-    background-color: #3B945E;
     color: #F2F2F2;
+    width: 120px;
+    border: 1px solid white;
+    padding: 0px 5px 0px 5px;
+}
+
+.weatherCard > .dayName{
+    height: 20%;
+}
+
+.weatherCard > .iconContainer{
+    height: 60%;
+}
+
+.iconContainer > i{
+    font-size:  30px;
+}
+
+.weatherCard > .temperature{
+    position: relative;
+    height: 20%;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
