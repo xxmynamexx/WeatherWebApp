@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import Proptypes from 'prop-types'
 import './style.css'
 import '../../common/css/weather-icons.css'
+import '../../common/css/weather-icons.min.css'
+import '../../common/css/weather-icons-wind.css'
+import '../../common/css/weather-icons-wind.min.css'
 
 class WeatherCard extends Component {
     render(){

@@ -1,8 +1,9 @@
 .weatherCard{
     color: #F2F2F2;
-    width: 120px;
+    width: 240px;
     border: 1px solid white;
     padding: 0px 5px 0px 5px;
+    font-size: 28px;
 }
 
 .weatherCard > .dayName{
@@ -10,16 +11,18 @@
 }
 
 .weatherCard > .iconContainer{
-    height: 60%;
+    height: 65%;
+    line-height: 70.8px;
 }
 
 .iconContainer > i{
-    font-size:  30px;
+   font-size: 130px;
+   padding-top: 15px;
 }
 
 .weatherCard > .temperature{
     position: relative;
-    height: 20%;
+    height: 15%;
     bottom: 0px;
     display: flex;
     flex-direction: row;
