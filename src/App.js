@@ -6,7 +6,7 @@ import WeatherCard  from './components/WeatherCard/WeatherCard.js';
 import InputGroup from 'react-bootstrap/InputGroup'
 
 const FormControl = Form.Control
-
+//
 class App extends Component {
   constructor(props){
     super(props)
