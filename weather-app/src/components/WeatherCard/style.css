@@ -1,18 +1,25 @@
 .weatherCard{
     color: #F2F2F2;
-    width: 240px;
+    width: 350px;
     border: 1px solid white;
     padding: 0px 5px 0px 5px;
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .weatherCard > .dayName{
-    height: 20%;
+    padding-top: 10px;
+    min-height: 14%;
+    overflow-x: hidden;
 }
 
 .weatherCard > .iconContainer{
-    height: 65%;
+    height: 40%;
     line-height: 70.8px;
+}
+
+.description{
+    margin-top: 25px;
+    font-size: 25px;
 }
 
 .iconContainer > i{
@@ -21,10 +28,11 @@
 }
 
 .weatherCard > .temperature{
-    position: relative;
+    word-break: break-all;
     height: 15%;
-    bottom: 0px;
+    margin-top: 20px;
     display: flex;
+    font-size: 36px;
     flex-direction: row;
     justify-content: space-between;
 }

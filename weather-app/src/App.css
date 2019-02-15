@@ -1,9 +1,8 @@
 @import url('./common/css/base.css');
 
-html{
-  background-color: #65CCB8;
+body{
+  background-color: #65CCB8 !important;
   color: #F2F2F2;
-  
 }
 
 .App {
@@ -18,6 +17,23 @@ html{
 
 }
 
+.mb-3{
+  width: 40%;
+  margin: auto;
+}
+
+@media(max-width: 1024px){
+  .mb-3{
+    width: 80%;
+  }
+}
+
+@media(max-width: 414px){
+  .mb-3{
+    width: 90%;
+  }
+}
+
 .weatherCardContainer{
   max-width: 80%;
   position: relative;
@@ -25,5 +41,5 @@ html{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 260px;
+  min-height: 355px;
 }
