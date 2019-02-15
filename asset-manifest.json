@@ -1,0 +1,14 @@
+{
+  "main.css": "/WebWeatherApp/static/css/main.13f3e732.chunk.css",
+  "main.js": "/WebWeatherApp/static/js/main.160cb7aa.chunk.js",
+  "main.js.map": "/WebWeatherApp/static/js/main.160cb7aa.chunk.js.map",
+  "static/js/1.fe3c875a.chunk.js": "/WebWeatherApp/static/js/1.fe3c875a.chunk.js",
+  "static/js/1.fe3c875a.chunk.js.map": "/WebWeatherApp/static/js/1.fe3c875a.chunk.js.map",
+  "runtime~main.js": "/WebWeatherApp/static/js/runtime~main.7ccca8ca.js",
+  "runtime~main.js.map": "/WebWeatherApp/static/js/runtime~main.7ccca8ca.js.map",
+  "static/media/weather-icons-wind.min.css": "/WebWeatherApp/static/media/weathericons-regular-webfont.8cac70eb.woff",
+  "static/css/main.13f3e732.chunk.css.map": "/WebWeatherApp/static/css/main.13f3e732.chunk.css.map",
+  "index.html": "/WebWeatherApp/index.html",
+  "precache-manifest.ab62e5058e76133fc2cd1ec211499f63.js": "/WebWeatherApp/precache-manifest.ab62e5058e76133fc2cd1ec211499f63.js",
+  "service-worker.js": "/WebWeatherApp/service-worker.js"
+}
