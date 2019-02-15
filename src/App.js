@@ -24,7 +24,7 @@ class App extends Component {
   }
   handleSubmit = (e) => {
     e.preventDefault()
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${this.state.cityInput}&APPID=01cfc6c2e6ed975cd2864678e71e55e2`).then((res)=>{
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${this.state.cityInput}&APPID=01cfc6c2e6ed975cd2864678e71e55e2`).then((res)=>{
        return res.json()
     }).then((res) => {
       this.setState({weatherData: res})
