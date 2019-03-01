@@ -68,6 +68,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->
 
 
-Small web based React application used to tell current weather conditions of a specific city. Uses Open Weather Map API for to fetch information regarding weather.
+Small web based React application used to tell current weather conditions of a specific city. Uses Open Weather Map API to fetch information regarding weather.
 
 https://xxmynamexx.github.io/WebWeatherApp/
